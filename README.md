@@ -1,11 +1,5 @@
 - 👋 Hi, I’m @bhat-ganesh
-<!---
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-
-bhat-ganesh/bhat-ganesh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👀 I’m interested in ... Coding, DevOps, Cloud
+- 🌱 I’m currently learning ... Kubernetes, IaC
+- 💞️ I’m looking to collaborate on ... anything interesting 😄
+- 📫 How to reach me ... bhatganesh@gmail.com
