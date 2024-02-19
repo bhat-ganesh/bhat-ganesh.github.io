@@ -14,6 +14,7 @@ export const Bio = {
     twitter: "https://twitter.com/bhatganesh",
     insta: "https://www.instagram.com/bhatganesh/",
     facebook: "https://www.facebook.com/bhat83",
+    discord: "https://discord.gg/NbSJxYkb"
   };
 
   export const skills = [
