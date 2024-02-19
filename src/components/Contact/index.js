@@ -46,7 +46,7 @@ const Title = styled.div`
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;
-  max-width: 600px;
+  max-width: 500px;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -138,13 +138,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-    //   .then((result) => {
-    //     setOpen(true);
-    //     form.current.reset();
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+    emailjs.sendForm('service_aadu3ug', 'template_rsb1zgn', form.current, 'BLlHLtI-_hYUloRTi')
+      .then((result) => {
+        setOpen(true);
+        form.current.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
   };
 
   return (
@@ -152,7 +152,7 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>
-          I'm always open to discussing new opportunities or answering any questions you may have.
+          I'm always open to discussing new opportunities or answering any questions you may have. Hit me up!
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>

@@ -118,13 +118,12 @@ const SkillImage = styled.img`
   height: 24px;
 `
 
-
 const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Throughout my career, I've been dedicated to both on-the-job skill development and personal learning initiatives. Here's a look at some of the key areas where I've honed my expertise.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
