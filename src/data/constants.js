@@ -13,6 +13,7 @@ export const Bio = {
     linkedin: "https://www.linkedin.com/in/bhat-ganesh",
     twitter: "https://twitter.com/bhatganesh",
     insta: "https://www.instagram.com/bhatganesh/",
+    medium: "https://medium.com/@bhatganesh",
     facebook: "https://www.facebook.com/bhat83",
     discord: "https://discord.gg/NbSJxYkb"
   };
@@ -116,7 +117,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Programming/Scripting",
+      title: "Programming & Scripting",
       skills: [
         {
           name: "Python",

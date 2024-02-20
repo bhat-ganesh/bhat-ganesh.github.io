@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import DiscordIcon from '@mui/icons-material/Adjust';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import MediumIcon from '@mui/icons-material/Description';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -102,8 +103,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.discord} target="display"><DiscordIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          {/*<SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>*/}
+          {/*<SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>*/}
+          <SocialMediaIcon href={Bio.medium} target="display"><MediumIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
