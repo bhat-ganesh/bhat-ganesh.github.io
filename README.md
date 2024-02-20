@@ -35,6 +35,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Deploy to GitHub Pages
 
-#### `npm run deploy`
+### `npm run deploy`
 
 Deploys to GitHub-Pages using `gh-pages`. This creates a branch called `gh-pages` which is referenced in the `repo -> Settings -> Pages`
