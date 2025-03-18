@@ -78,7 +78,7 @@ const index = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work experience in the Digital TV and Gaming industries covers development, full-stack integration, DevOps, and leadership roles.
+                    My work experience in the Healthtech, Digital TV and Gaming industries covers Development, Full-Stack Integration, DevOps and Lead roles.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

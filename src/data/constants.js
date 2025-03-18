@@ -28,7 +28,7 @@ export const Bio = {
         },
         {
           name: "Terragrunt",
-          image: "https://global.discourse-cdn.com/standard11/uploads/gruntwork/original/1X/451c24614aece67849fd62d0432d77ecd00735c6.png"
+          image: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/terragrunt.png?alt=media&token=a800efe4-25fe-4bdc-b194-5d151331c335"
         },
         {
           name: "Ansible",
@@ -289,10 +289,26 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/fullscript.png?alt=media&token=fc1156ff-f85c-4ee3-aaad-068c4a62b858",
+      role: "Senior DevOps Engineer",
+      company: "Fullscript",
+      date: "March 2024 - Present",
+      desc: "Enhanced developer experience through self-service solutions within a Platform Engineering team.",
+      skills: [
+        "Kubernetes",
+        "Helm",
+        "Terraform",
+        "AWS",
+        "GitLab"
+      ],
+      doc: ""
+    },
+    {
+      id: 1,
       img: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/unity.png?alt=media&token=35a05baa-0b11-4edc-9b14-dc9e7ef85e07",
       role: "Senior DevOps Engineer",
       company: "Unity Technologies",
-      date: "Jan 2022 - Jan 2024",
+      date: "June 2023 - January 2024",
       desc: "Collaborated with development and customer teams as an individual contributor on complex projects, managing cloud infrastructure deployment and build pipelines across diverse technologies and cloud platforms.",
       skills: [
         "Jenkins",
@@ -311,11 +327,11 @@ export const Bio = {
       doc: ""
     },
     {
-      id: 1,
+      id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/unity.png?alt=media&token=35a05baa-0b11-4edc-9b14-dc9e7ef85e07",
       role: "DevOps Manager",
       company: "Unity Technologies",
-      date: "Jan 2022 - Jun 2023",
+      date: "January 2022 - June 2023",
       desc: "DevOps Manager leading a team of professional services DevOps engineers. Also functioned as an individual contributor paralley while managing the team. Managed common tooling developed by team including a Jenkins pipeline which was widely used for Customer projects and internal initiatives.",
       skills: [
         "Leadership",
@@ -332,11 +348,11 @@ export const Bio = {
       doc: ""
     },
     {
-      id: 2,
+      id: 3,
       img: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/synamedia.jpg?alt=media&token=0fb8c062-7f6e-428b-906f-f7291f8a2019",
       role: "DevOps Lead",
       company: "Synamedia Pvt. Ltd.",
-      date: "Aug 2023 - Oct 2023",
+      date: "November 2018 - January 2022",
       desc: "Cloud Application & DevOps Team Lead managing Cloud backend and UI applications for Synamedia's Gravity - a braodband management system for cable operators. Developed multiple modules of Common Infra which automates the infra deployment for Synamedias cloud products.",
       skills: [
         "Leadership",
@@ -355,11 +371,11 @@ export const Bio = {
       doc: ""
     },
     {
-      id: 3,
+      id: 4,
       img: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/cisco.svg?alt=media&token=1f9b7767-9bea-437e-96eb-44b69613e6cd",
       role: "Senior Lead Software Engineer",
       company: "Cisco Systems",
-      date: "June 2021 - Oct 2021",
+      date: "July 2018 - November 2018",
       desc: "DevOps for deployment automation, logging pipeline for Cisco's Infinite Video Platform. Worked on Rogers Vantage new embedded UI development. Interfaced with customer for defect triage as a technical liason.",
       skills: [
         "Ansible",
@@ -374,11 +390,11 @@ export const Bio = {
       doc: ""
     },
     {
-      id: 4,
+      id: 5,
       img: "https://firebasestorage.googleapis.com/v0/b/portfolio-58eee.appspot.com/o/NDS.png?alt=media&token=7e8c49bc-13b1-413a-8422-5a54864bf1ae",
       role: "Technical Leader",
       company: "NDS Pay TV Services Technology Ltd.",
-      date: "June 2023 - July 2023",
+      date: "July 2004 - July 2018",
       desc: "Started my IT journey as a Software Engineer, engaging in diverse technologies and projects across embedded development and integration responsibilities. Worked on several customer projects across India, Eurpoe and Americas.",
       skills: [
         "Python",
